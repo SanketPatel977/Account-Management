@@ -1,0 +1,25 @@
+body{
+    margin: 40px;
+}
+h1{
+    font-weight: 100px;
+    color: #f60bdb;
+}
+.col-md-8
+{
+    margin-right: 205px;
+    float: right;
+}
+.bg-primary
+{
+    background-color: #f60bf6!important;
+}
+.btn
+{
+    margin-right: 327px;
+}
+.form-control
+{
+    padding: 23px 18px;
+    background-color: #c4ea04;
+}

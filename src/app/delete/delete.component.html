@@ -1,0 +1,36 @@
+<section>
+  <div class="conatiner">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            
+            <div class="my-card mt-4">
+                
+                
+                <h1 class="text-center">Delete Data</h1>
+                
+                <form #deleteform="ngForm" (ngSubmit)="deletedata(deleteform)">
+                    
+                    <!-- Name field-->
+                    
+                    <div class="form-group">
+                        
+                    <label for="name"> Enter accno to delete:</label>
+                    <input  type="number" id="accno" #accno (ngModel)="accno" name="accno"   class="form-control"  aria-describedby="emailHelp" placeholder="Enter Account No"  required>
+                
+                      </div>
+             
+                  
+                 
+                  <div class="container text-center"><button id="b1" type="submit" Value="Delete record" class="btn bg-primary text-white  ">Delete record</button>
+                      
+                      
+                  </div>
+                  
+                </form>
+                
+                
+            </div>
+        </div>
+    </div>
+  </div>
+  </section>

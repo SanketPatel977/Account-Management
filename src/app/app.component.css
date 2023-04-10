@@ -1,0 +1,47 @@
+body
+{
+    /* background-image:  url("../assets/img1.jpg");
+   background-repeat: no-repeat; */
+	background:#05eded ! important;
+}
+.navbar 
+{
+    margin-bottom: 7px;
+}
+
+.bg-primary
+{
+    
+	background: #18e405 ! important;
+}
+.navbar-nav a
+{
+    float: right;
+    margin: 17px;
+    padding-top: 15px;
+    padding-left: 51px;
+    padding-bottom: 15px;
+}
+.navbar-nav
+{
+    float: right;
+    margin: 0;
+}
+.navbar-brand
+{
+    padding: 26px 15px;
+}
+.banner
+{
+	width: 100%;
+	height: 93vh;
+	/* background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(..assets/img1.jpg); */
+	background-size: cover;
+	color: white;
+	
+}
+.my-card
+{
+	padding: 20px;
+	background: #ffffff;
+}

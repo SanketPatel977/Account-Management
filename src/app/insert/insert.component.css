@@ -1,0 +1,26 @@
+body{
+    margin: 40px;
+    background-color: #844fed;
+    
+}
+h1{
+    color: #178501;
+}
+.bg-primary
+{
+    background-color: #178501!important;
+}
+.col-md-8
+{
+    margin-right: 205px;
+    float: right;
+}
+.btn
+{
+    margin-right: 374px;
+}
+.form-control
+{
+    padding: 23px 18px;
+    background-color: #83ea04;
+}

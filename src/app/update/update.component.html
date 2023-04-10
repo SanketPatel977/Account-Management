@@ -1,0 +1,45 @@
+<section>
+<div class="conatiner">
+  <div class="row">
+      <div class="col-md-8 offset-md-2">
+          
+          <div class="my-card mt-4">
+              
+              
+              <h1 class="text-center">Update Form</h1>
+              
+              <form #updateform="ngForm" (ngSubmit)="updatedata(updateform)">
+                  
+                  <!-- Name field-->
+                  
+                  <div class="form-group">
+                      
+                  <label for="name">Enter Account no :</label>
+                  <input  type="number" id="accno" #accno (ngModel)="accno" name="accno"  class="form-control"  aria-describedby="emailHelp" placeholder="Enter Account No"  required>
+              
+                    </div>
+                  
+                  <div class="form-group">
+                  <label for="owner">Enter Owner Name : </label>
+                  <input type="text" id="owner" #owner (ngModel)="owner" name="owner"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Your Name"  required>
+                  
+                </div>
+                <div class="form-group">
+                  <label for="balance">Enter Balance :</label>
+                  <input type="number" id="balance" #balance (ngModel)="balance" name="balance"   class="form-control"  aria-describedby="emailHelp" placeholder="Enter Balance"  required>
+                
+                </div>
+               
+                <div class="container text-center"><button id="b1" type="submit" Value="Update Details" class="btn bg-primary text-white  ">Update Details</button>
+                    
+                    
+                </div>
+                
+              </form>
+              
+              
+          </div>
+      </div>
+  </div>
+</div>
+</section>
