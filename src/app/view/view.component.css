@@ -8,6 +8,7 @@ body{
     margin-bottom: 100px;
     background-color: rgb(8, 134, 244) !important;
     font-size: 40px;
+    height: 300% !important;
 }
 h3{
     font-size: 40px;

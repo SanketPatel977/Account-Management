@@ -2,20 +2,29 @@ body
 {
     /* background-image:  url("../assets/img1.jpg");
    background-repeat: no-repeat; */
-	background:#05eded ! important;
+   height: 100%;
+	background:#e005e4 ! important;
 }
+#a
+{
+    font-size: large;
+}
+
 .navbar 
 {
     margin-bottom: 7px;
+    background: #e005e4 ! important;
 }
 
 .bg-primary
 {
     
-	background: #18e405 ! important;
+	background: #0574e4 ! important;
 }
 .navbar-nav a
 {
+    color: blue;
+    font-size: large;
     float: right;
     margin: 17px;
     padding-top: 15px;
