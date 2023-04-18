@@ -2,8 +2,16 @@ body
 {
     /* background-image:  url("../assets/img1.jpg");
    background-repeat: no-repeat; */
-   height: 100%;
+   height: 140%;
 	background:#e005e4 ;
+}
+#app
+{
+    height: 1000 px;  
+    color: #fff;
+    background-image: url('../assets/31.jpg') !important;  
+    background-size: 130% !important ;  
+    background-size:contain !important ;
 }
 #a
 {
@@ -19,7 +27,7 @@ body
 .bg-primary
 {
     
-	background: #0574e4 ! important;
+	background: #05e4d9d3 ! important;
 }
 .navbar-nav a
 {

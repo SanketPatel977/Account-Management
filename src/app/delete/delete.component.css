@@ -1,5 +1,6 @@
 body{
     margin: 40px;
+    height: 100%;
 }
 
 .col-md-8
@@ -12,6 +13,14 @@ body{
     background-color: #f60b0b!important;
 }
 
+#delete
+{
+    height: 1000 px;  
+    color: #fff;
+    background-image: url('../../assets/img1.jpg') !important;  
+    background-size: 130% ;  
+    background-size:cover;
+}
 .btn
 {
     margin-right: 48px;

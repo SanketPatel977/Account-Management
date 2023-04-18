@@ -4,3 +4,9 @@ body{
     margin-right: 2px;
 }
 
+.invalid-data {
+    border: 2px solid red;
+}
+.valid-data {
+    border: 2px solid rgb(19, 92, 4);
+}

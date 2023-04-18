@@ -1,11 +1,18 @@
 body{
     margin: 40px;
     background-color: #844fed;
-    background-image: url('../../assets/img.jpg') !important;
+    /* background-image: url('../../assets/img.jpg') !important; */
 }
-
+#s1
+{
+    height: 1000 px;  
+    color: #fff;
+    background-image: url('../../assets/img.jpg') !important;  
+    background-size: 130% !important;  
+    background-size:contain !important;
+}
 h1{
-    color: #040de6;
+    color: #d3e604;
 }
 .bg-primary
 {
@@ -15,6 +22,10 @@ h1{
 {
     margin-right: 205px;
     float: right;
+}
+#b1
+{
+    border-radius: 15px;
 }
 .btn
 {
